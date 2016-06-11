@@ -1,0 +1,142 @@
+body, html{
+	height: 100%;
+	background-color: white;
+	background-image: url('../images/background-aviso.jpg');
+	color: #444;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+}
+
+#alert{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+#alert a:hover{
+	text-decoration: none;
+}
+
+#img-home{
+		width: 30%;
+	}
+
+#aviso h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-top: 0px;
+	font-size: 25px;
+}
+
+#aviso ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#aviso li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+#contato li{
+	font-weight: 700;
+}
+
+#contato i{
+	font-size: 20px;
+}
+
+.social{
+	clear: both;
+	padding-top: 15px;
+}
+
+.social a{
+	color: white;
+}
+
+.social a:hover{
+	color:#333!important;
+}
+
+.social ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.social li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+/*TABLET PAISAGEM*/
+@media (max-width: 991px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
+
+	#img-home{
+		width: 50%;
+	}
+}
+
+/*TABLET RETRATO*/
+@media (max-width: 768px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
+
+	#img-home{
+		width: 50%;
+	}
+}
+
+/*CELULAR PAISAGEM*/
+@media (max-width: 767px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
+
+	#img-home{
+		width: 50%;
+	}
+}
+
+/*CELULAR RETRATO*/
+@media (max-width: 479px) {
+	body, html{
+		background-image: url('../images/background-aviso.jpg');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-font-smoothing: antialiased;
+		font-size: 18px;
+	}
+
+	#img-home{
+		width: 50%;
+	}
+}
