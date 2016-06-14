@@ -1,6 +1,7 @@
 <?php require_once "header.php";?>
 <body>
 	<div id="content-all" class="container">
+	PAGES
 		<?php require_once "left-sidebar.php";?>
 		<?php require_once "menu-social.php";?>
 		<div class="col-md-10" id="geral">
