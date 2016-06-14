@@ -1,22 +1,24 @@
 body, html{
 	height: 100%;
-	min-height: 100%;
 	background-color: #e1e1e1 !important;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
 }
 
 #content-all{
-	height: 100%;
+	min-height: 100%;
+	position: relative;
 	background: #fff;
 	padding: 0px;
+	overflow: hidden;
 }
 
 /*SIDEBAR-LEFT*/
 #left-sidebar{
 	background: #fde000;
-	height: 100%;
 	padding: 20px;
+	padding-bottom: 1000em;
+	margin-bottom: -999.5em;
 }
 
 #left-sidebar img{
@@ -51,19 +53,107 @@ body, html{
 .social img{
 	width: 30px;
 }
+/*GERAL*/
+#geral{
+	padding-top: 20px;
+}
 /*PLAYLIST*/
 .name-playlist{
 	margin-left: -18%;
 }
+
+.playlist button{
+	background: black;
+	color: white;
+	border-radius: 10px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.playlist button:hover{
+	background: #232323;
+}
+
 .playlist img{
 	width: 100%;
-	height: 80px;
 }
+
+.playlist p{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: -60px;
+	font-size: 20px;
+	color: white;
+	line-height: 20px;
+	padding: 0 5px;
+	opacity: 0;
+}
+.playlist button{
+	float: right;
+}
+.playlist h3{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: right;
+	font-size: 20px;
+}
+.playlist ul{
+	padding: 3px;
+}
+.playlist li{
+	list-style: none;
+	padding: 0px;
+	background: black;
+	overflow: hidden;
+}
+/*MATERIAS*/
+.materias{
+	overflow: hidden;
+	min-height: 100%;
+	margin-bottom: 30px;
+}
+.capa{
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.capa h3{
+	background: #c6080a;
+	padding: 5px 10px;
+	font-weight: 700;
+	color: white;
+	margin-top: -30px;
+	font-size: 30px;
+	position: relative;
+}
+.capa img{
+	width: 100%
+}
+
+.materia-page .capa{
+	height: 400px;
+}
+
+.materia-page .capa h3{
+	background: #c6080a;
+	padding: 5px 10px;
+	font-weight: 700;
+	color: white;
+	font-size: 30px;
+	margin-top: -315px;
+}
+
 /*BANNER*/
 .banner{
 	width: 728px;
 	height: 90px;
-	margin:auto;
+	margin: 20px auto;
 	background: #e1e1e1;
 }
 
@@ -72,6 +162,7 @@ footer{
 	clear: both;
 	background: #c6080a;
 	padding: 30px 0px;
+	color: white;
 }
 
 
